@@ -1,0 +1,1286 @@
+@media screen and (min-width: 1921px) {
+  body {
+    max-width: 1920px !important;
+    margin-left: auto !important;
+    margin-right: auto !important; }
+
+  header {
+    width: 1920px !important; } }
+@font-face {
+  font-family: 'Proxima';
+  src: url(../fonts/ProximaNova-Bold.ttf); }
+@font-face {
+  font-family: 'Proxima-reg';
+  src: url(../fonts/ProximaNova-Regular.ttf); }
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  body a {
+    text-decoration: none;
+    color: #a6a5a5;
+    cursor: pointer;
+    text-transform: uppercase; }
+  body header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    z-index: 10; }
+    body header .Burg-menu {
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-self: center;
+      font-family: 'Proxima';
+      font-size: 15px;
+      font-weight: bold;
+      color: #a6a5a5;
+      text-transform: uppercase; }
+      body header .Burg-menu img {
+        padding-left: 26px; }
+      body header .Burg-menu span {
+        padding-top: 2px;
+        padding-left: 20px; }
+    body header .Burg-menu:hover {
+      cursor: pointer;
+      color: #fff; }
+    body header .Centr-menu {
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-self: center;
+      padding-left: 210px; }
+      body header .Centr-menu a {
+        padding-left: 100px;
+        padding-top: 10px; }
+      body header .Centr-menu a:hover {
+        cursor: pointer;
+        color: #fff; }
+      body header .Centr-menu p {
+        font-family: 'Proxima';
+        color: #fff;
+        margin: 0;
+        font-size: 32px;
+        letter-spacing: 15px;
+        position: relative;
+        text-transform: uppercase;
+        font-weight: bold; }
+        body header .Centr-menu p img {
+          position: absolute;
+          top: 17px;
+          left: 43px;
+          width: 65px; }
+    body header .Lang-choose {
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-self: center;
+      padding-right: 30px; }
+      body header .Lang-choose img {
+        padding-top: 15px;
+        padding-right: 45px; }
+      body header .Lang-choose select {
+        font-family: 'Proxima';
+        font-size: 15px;
+        font-weight: bold;
+        color: #a6a5a5;
+        border: none;
+        background: transparent;
+        text-transform: uppercase;
+        background-image: url("../static/for_form_select.png");
+        background-repeat: no-repeat;
+        background-position: right center;
+        -webkit-appearance: none;
+        width: 35px; }
+        body header .Lang-choose select option {
+          background: black;
+          border: none; }
+  body .main-screen {
+    width: 100%;
+    position: relative; }
+    body .main-screen .background-picture {
+      height: 1040px;
+      width: 100%;
+      background: url("../static/DSC_1007_2000.png") no-repeat left top, url("../static/boss-fight-free-stock-images-photography-photos-high-resolution-wood-pile.png") right top no-repeat;
+      background-size: 67% 100%, 75% 100%; }
+      body .main-screen .background-picture .line-right-bottom-main-screen {
+        position: absolute;
+        bottom: -20px;
+        right: 19%; }
+      body .main-screen .background-picture .Furniture-first-object {
+        font-family: 'Proxima';
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 400px;
+        color: rgba(190, 166, 124, 0.1);
+        margin: 0;
+        position: absolute;
+        top: 76%;
+        left: 18%; }
+      body .main-screen .background-picture .letterW_main-screen {
+        position: absolute;
+        right: 0;
+        top: 35%; }
+      body .main-screen .background-picture .circles3reghtbottom {
+        position: absolute;
+        right: 2%;
+        bottom: 2.5%; }
+      body .main-screen .background-picture .wooden-select-main-screen {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 46%;
+        left: 12%; }
+        body .main-screen .background-picture .wooden-select-main-screen .line_left_screen-main-dcreen {
+          width: 4px;
+          position: absolute;
+          left: 145px;
+          top: -185px; }
+        body .main-screen .background-picture .wooden-select-main-screen .wooden-select-rotate-left {
+          width: auto;
+          height: auto;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-self: center;
+          justify-content: center;
+          -o-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+          -moz-transform: rotate(90deg);
+          -webkit-transform: rotate(90deg);
+          transform: rotate(90deg); }
+          body .main-screen .background-picture .wooden-select-main-screen .wooden-select-rotate-left span {
+            font-size: 52px;
+            color: #bea67c;
+            font-family: "Proxima";
+            font-weight: bold;
+            padding-right: 50px; }
+          body .main-screen .background-picture .wooden-select-main-screen .wooden-select-rotate-left a {
+            padding-left: 37px;
+            padding-top: 20px; }
+          body .main-screen .background-picture .wooden-select-main-screen .wooden-select-rotate-left a:hover {
+            cursor: pointer;
+            color: #fff; }
+      body .main-screen .background-picture .for-some-text {
+        padding-left: 37%;
+        padding-top: 17.2%;
+        position: relative; }
+        body .main-screen .background-picture .for-some-text h2 {
+          color: #bea67c;
+          text-transform: uppercase;
+          font-family: 'Proxima';
+          font-size: 100px;
+          margin: 0;
+          letter-spacing: 20px; }
+        body .main-screen .background-picture .for-some-text input {
+          color: #fff;
+          font-size: 14px;
+          font-family: "Proxima";
+          text-transform: uppercase;
+          background: transparent;
+          width: 306px;
+          height: 62px;
+          letter-spacing: 3px;
+          border: 2px solid #fff;
+          background-image: url("../static/arrow_button-main-screen.png");
+          background-repeat: no-repeat;
+          background-position: 200px center;
+          margin-top: 30px;
+          padding-right: 30px; }
+        body .main-screen .background-picture .for-some-text input:hover {
+          cursor: pointer;
+          color: burlywood; }
+        body .main-screen .background-picture .for-some-text .mouse-text-main-screen {
+          margin-top: 63px; }
+        body .main-screen .background-picture .for-some-text .arrow-bottom-mouse-main-screen {
+          margin-top: 22px;
+          margin-left: 5px; }
+        body .main-screen .background-picture .for-some-text p {
+          font-family: "Proxima";
+          color: #363635;
+          font-size: 14px;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+          -o-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+          -moz-transform: rotate(90deg);
+          -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+          position: absolute;
+          left: 35.8%;
+          top: 104%; }
+      body .main-screen .background-picture .right-text-for-main-screen {
+        position: absolute;
+        font-family: "Proxima";
+        color: #403627;
+        font-size: 13px;
+        right: 14%;
+        top: 43%;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg); }
+  body .Furniture-block {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden; }
+    body .Furniture-block .Furniture-text-img-center {
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-self: center;
+      justify-content: center;
+      margin-left: 10.5%;
+      margin-top: 80px; }
+    body .Furniture-block .Furniture-text-right {
+      width: 380px;
+      margin-top: 73px;
+      position: relative; }
+      body .Furniture-block .Furniture-text-right h3 {
+        font-family: 'Proxima';
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 48px;
+        letter-spacing: 4px;
+        margin-bottom: 15px;
+        position: relative; }
+      body .Furniture-block .Furniture-text-right h3::before {
+        content: url(../static/Furnitute_line_long.png);
+        position: absolute;
+        left: -175px;
+        top: -20px; }
+      body .Furniture-block .Furniture-text-right p {
+        font-family: "Proxima-reg";
+        font-size: 15px;
+        line-height: 1.5;
+        position: relative; }
+      body .Furniture-block .Furniture-text-right p::before {
+        content: url(../static/Furnitute_line_left_text.png);
+        position: absolute;
+        left: -67px;
+        top: -3px; }
+      body .Furniture-block .Furniture-text-right input {
+        color: black;
+        font-size: 14px;
+        font-family: "Proxima";
+        text-transform: uppercase;
+        background: transparent;
+        width: 226px;
+        height: 30px;
+        letter-spacing: 3px;
+        border: none;
+        background-image: url("../static/Furnitute_arrow_learn.png");
+        background-repeat: no-repeat;
+        background-position: 180px center;
+        margin-left: -45px;
+        position: relative; }
+      body .Furniture-block .Furniture-text-right input:hover {
+        cursor: pointer;
+        color: burlywood; }
+      body .Furniture-block .Furniture-text-right img {
+        position: absolute;
+        top: 235px;
+        left: 10px; }
+      body .Furniture-block .Furniture-text-right span {
+        display: block;
+        font-family: 'Proxima';
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 70px;
+        margin-left: -160px;
+        font-size: 36px;
+        letter-spacing: 2px; }
+    body .Furniture-block .Furniture-background-objects .Furniture-second-object {
+      font-family: 'Proxima';
+      text-transform: uppercase;
+      font-weight: bold;
+      color: rgba(208, 208, 208, 0.2);
+      font-size: 170px;
+      text-transform: uppercase;
+      margin: 0;
+      position: absolute;
+      top: 38%;
+      right: -12%; }
+  body .Decor-block {
+    position: relative;
+    width: 100%;
+    height: auto; }
+    body .Decor-block .decore-text-img-center {
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-self: center;
+      justify-content: center;
+      margin-left: -10.5%;
+      margin-top: 250px;
+      position: relative; }
+      body .Decor-block .decore-text-img-center .decore-background-objects .decor-first-object {
+        font-family: 'Proxima';
+        text-transform: uppercase;
+        font-weight: bold;
+        color: rgba(208, 208, 208, 0.2);
+        font-size: 170px;
+        text-transform: uppercase;
+        margin: 0;
+        position: absolute;
+        top: 27%;
+        right: 57%;
+        letter-spacing: 5px; }
+      body .Decor-block .decore-text-img-center .decore-background-objects .decor-second-object {
+        font-family: 'Proxima';
+        text-transform: uppercase;
+        font-weight: bold;
+        color: rgba(208, 208, 208, 0.2);
+        font-size: 400px;
+        text-transform: uppercase;
+        margin: 0;
+        position: absolute;
+        top: -73%;
+        right: 14%; }
+    body .Decor-block .decor-text-right {
+      width: 380px;
+      margin-top: 70px;
+      position: relative; }
+      body .Decor-block .decor-text-right h3 {
+        font-family: 'Proxima';
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 48px;
+        letter-spacing: 4px;
+        margin-bottom: 15px;
+        position: relative;
+        text-align: right; }
+      body .Decor-block .decor-text-right h3::before {
+        content: url(../static/Furnitute_line_long.png);
+        position: absolute;
+        left: 400px;
+        top: -20px; }
+      body .Decor-block .decor-text-right p {
+        font-family: "Proxima-reg";
+        font-size: 15px;
+        line-height: 1.5;
+        position: relative;
+        text-align: right; }
+      body .Decor-block .decor-text-right p::before {
+        content: url(../static/Furnitute_line_left_text.png);
+        position: absolute;
+        left: 400px;
+        top: -5px; }
+      body .Decor-block .decor-text-right input {
+        color: black;
+        font-size: 14px;
+        font-family: "Proxima";
+        text-transform: uppercase;
+        background: transparent;
+        width: 226px;
+        height: 30px;
+        letter-spacing: 3px;
+        border: none;
+        background-image: url("../static/Furnitute_arrow_learn.png");
+        background-repeat: no-repeat;
+        background-position: 180px center;
+        margin-left: -45px;
+        position: relative;
+        margin-left: 160px; }
+      body .Decor-block .decor-text-right input:hover {
+        cursor: pointer;
+        color: burlywood; }
+      body .Decor-block .decor-text-right img {
+        position: absolute;
+        top: 235px;
+        left: 215px; }
+      body .Decor-block .decor-text-right span {
+        display: block;
+        font-family: 'Proxima';
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 70px;
+        margin-left: 490px;
+        font-size: 36px;
+        letter-spacing: 2px; }
+      body .Decor-block .decor-text-right .decor-third-object {
+        position: absolute;
+        top: -68%;
+        left: -154%; }
+      body .Decor-block .decor-text-right .decor-fourth-object {
+        position: absolute;
+        top: 111%;
+        left: 133%; }
+  body .video-choose {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 200px; }
+    body .video-choose .video-text {
+      text-align: center; }
+      body .video-choose .video-text h3 {
+        font-family: 'Proxima';
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 48px;
+        letter-spacing: 3px;
+        position: relative;
+        margin-bottom: 40px; }
+        body .video-choose .video-text h3 img {
+          position: absolute;
+          top: 124%;
+          left: 48.5%; }
+      body .video-choose .video-text p {
+        font-family: "Proxima-reg";
+        font-size: 15px;
+        line-height: 1.5;
+        position: relative; }
+    body .video-choose .video-choose-block {
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-self: center;
+      justify-content: center;
+      margin-top: 70px; }
+      body .video-choose .video-choose-block .video-choose-block-first {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center; }
+        body .video-choose .video-choose-block .video-choose-block-first .video-choose-image-one {
+          position: relative;
+          background-image: url("../static/video_choose_design.png");
+          background-position: center center;
+          background-repeat: no-repeat; }
+          body .video-choose .video-choose-block .video-choose-block-first .video-choose-image-one .video-choose-button {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: #bea67c;
+            position: absolute;
+            top: 38%;
+            left: 37%;
+            background-image: url("../static/video_choose_play_arrow.png");
+            background-position: center center;
+            background-repeat: no-repeat; }
+          body .video-choose .video-choose-block .video-choose-block-first .video-choose-image-one .video-choose-button:hover {
+            cursor: pointer;
+            background-color: #5a3900; }
+        body .video-choose .video-choose-block .video-choose-block-first p {
+          font-family: "Proxima";
+          font-size: 15px;
+          line-height: 1.5;
+          position: relative;
+          margin-top: 40px; }
+          body .video-choose .video-choose-block .video-choose-block-first p img {
+            position: absolute;
+            top: -70%;
+            left: 45%; }
+      body .video-choose .video-choose-block .video-choose-block-second {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 80px;
+        margin-right: 80px;
+        text-align: center; }
+        body .video-choose .video-choose-block .video-choose-block-second .video-choose-image-two {
+          position: relative;
+          background-image: url("../static/video_choose_skills.png");
+          background-position: center center;
+          background-repeat: no-repeat; }
+          body .video-choose .video-choose-block .video-choose-block-second .video-choose-image-two .video-choose-button {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: #bea67c;
+            position: absolute;
+            top: 38%;
+            left: 37%;
+            background-image: url("../static/video_choose_play_arrow.png");
+            background-position: center center;
+            background-repeat: no-repeat; }
+          body .video-choose .video-choose-block .video-choose-block-second .video-choose-image-two .video-choose-button:hover {
+            cursor: pointer;
+            background-color: #5a3900; }
+        body .video-choose .video-choose-block .video-choose-block-second p {
+          font-family: "Proxima";
+          font-size: 15px;
+          line-height: 1.5;
+          position: relative;
+          margin-top: 40px; }
+          body .video-choose .video-choose-block .video-choose-block-second p img {
+            position: absolute;
+            top: -70%;
+            left: 45%; }
+      body .video-choose .video-choose-block .video-choose-block-third {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center; }
+        body .video-choose .video-choose-block .video-choose-block-third .video-choose-image-three {
+          position: relative;
+          background-image: url("../static/video_choose_products.png");
+          background-position: center center;
+          background-repeat: no-repeat; }
+          body .video-choose .video-choose-block .video-choose-block-third .video-choose-image-three .video-choose-button {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: #bea67c;
+            position: absolute;
+            top: 38%;
+            left: 37%;
+            background-image: url("../static/video_choose_play_arrow.png");
+            background-position: center center;
+            background-repeat: no-repeat; }
+          body .video-choose .video-choose-block .video-choose-block-third .video-choose-image-three .video-choose-button:hover {
+            cursor: pointer;
+            background-color: #5a3900; }
+        body .video-choose .video-choose-block .video-choose-block-third p {
+          font-family: "Proxima";
+          font-size: 15px;
+          line-height: 1.5;
+          position: relative;
+          margin-top: 40px; }
+          body .video-choose .video-choose-block .video-choose-block-third p img {
+            position: absolute;
+            top: -70%;
+            left: 45%; }
+  body .video-player-background {
+    width: 100%;
+    position: relative;
+    height: 918px;
+    margin-top: 135px;
+    background: url("../static/Block-video-hd-background.png") no-repeat; }
+    body .video-player-background .video-player-background-left-pict {
+      background-image: url("../static/Block-video-hd-background-arrow.png");
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 5%;
+      right: 3%;
+      width: 900px;
+      height: 900px; }
+      body .video-player-background .video-player-background-left-pict .video-player-background-letter-A {
+        font-size: 400px;
+        font-family: "Proxima";
+        color: rgba(190, 166, 124, 0.1);
+        font-weight: bold;
+        text-transform: uppercase;
+        position: absolute;
+        right: 28%;
+        top: 27%; }
+      body .video-player-background .video-player-background-left-pict .video-player-background-letter-V {
+        font-size: 400px;
+        font-family: "Proxima";
+        color: rgba(190, 166, 124, 0.1);
+        font-weight: bold;
+        text-transform: uppercase;
+        position: absolute;
+        right: 28%;
+        top: -71%; }
+      body .video-player-background .video-player-background-left-pict img {
+        position: absolute;
+        left: 74%;
+        top: 37%; }
+    body .video-player-background .video-player-block-info {
+      position: relative;
+      top: 10%;
+      left: 10%;
+      width: 81%;
+      height: 80%;
+      border: 1px solid #bea67c; }
+      body .video-player-background .video-player-block-info .video-player-block-text-right {
+        width: 540px;
+        margin-top: 200px;
+        position: relative;
+        margin-left: 24%;
+        letter-spacing: 1px; }
+        body .video-player-background .video-player-block-info .video-player-block-text-right h3 {
+          font-family: 'Proxima';
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 48px;
+          margin-bottom: 35px;
+          position: relative;
+          color: #bea67c; }
+        body .video-player-background .video-player-block-info .video-player-block-text-right h3::before {
+          content: url(../static/Block-video-hd-line-left-h3.png);
+          position: absolute;
+          left: -175px;
+          top: -20px; }
+        body .video-player-background .video-player-block-info .video-player-block-text-right p {
+          font-family: "Proxima-reg";
+          font-size: 15px;
+          line-height: 1.7;
+          position: relative;
+          color: #fff;
+          letter-spacing: 0.5px; }
+        body .video-player-background .video-player-block-info .video-player-block-text-right p::before {
+          content: url(../static/Furnitute_line_left_text.png);
+          position: absolute;
+          left: -67px;
+          top: 0px; }
+        body .video-player-background .video-player-block-info .video-player-block-text-right input {
+          font-size: 14px;
+          font-family: "Proxima";
+          text-transform: uppercase;
+          background: transparent;
+          color: #fff;
+          width: 300px;
+          height: 55px;
+          letter-spacing: 3px;
+          border: 1px solid #fff;
+          background-image: url("../static/Block-video-hd-button-arrow.png");
+          background-repeat: no-repeat;
+          background-position: 65px center;
+          padding-left: 30px;
+          margin-left: 10px;
+          margin-top: 25px;
+          position: relative; }
+        body .video-player-background .video-player-block-info .video-player-block-text-right input:hover {
+          cursor: pointer;
+          color: burlywood; }
+  body .about-us-block {
+    position: relative;
+    width: 100%;
+    height: auto; }
+    body .about-us-block .about-us-img-center {
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-self: center;
+      justify-content: center;
+      margin-left: -5%;
+      margin-top: 120px;
+      position: relative; }
+      body .about-us-block .about-us-img-center .about-us-background-objects .about-us-first-object {
+        font-family: 'Proxima';
+        text-transform: uppercase;
+        font-weight: bold;
+        color: rgba(208, 208, 208, 0.2);
+        font-size: 170px;
+        text-transform: uppercase;
+        margin: 0;
+        position: absolute;
+        top: 27%;
+        right: 53%;
+        letter-spacing: 5px; }
+    body .about-us-block .about-us-text-right {
+      width: 380px;
+      margin-top: 60px;
+      margin-left: 80px;
+      position: relative; }
+      body .about-us-block .about-us-text-right h3 {
+        font-family: 'Proxima';
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 48px;
+        letter-spacing: 4px;
+        margin-bottom: 15px;
+        position: relative;
+        text-align: left; }
+      body .about-us-block .about-us-text-right h3::before {
+        content: url(../static/Furnitute_line_long.png);
+        position: absolute;
+        left: -180px;
+        top: -20px; }
+      body .about-us-block .about-us-text-right p {
+        font-family: "Proxima-reg";
+        font-size: 15px;
+        line-height: 1.5;
+        position: relative;
+        text-align: left;
+        margin-left: 3px; }
+      body .about-us-block .about-us-text-right p::before {
+        content: url(../static/Furnitute_line_left_text.png);
+        position: absolute;
+        left: -70px;
+        top: -3px; }
+      body .about-us-block .about-us-text-right input {
+        color: black;
+        font-size: 14px;
+        font-family: "Proxima";
+        text-transform: uppercase;
+        background: transparent;
+        width: 226px;
+        height: 30px;
+        letter-spacing: 3px;
+        border: none;
+        background-image: url("../static/Furnitute_arrow_learn.png");
+        background-repeat: no-repeat;
+        background-position: 180px center;
+        margin-left: -48px;
+        position: relative; }
+      body .about-us-block .about-us-text-right input:hover {
+        cursor: pointer;
+        color: burlywood; }
+      body .about-us-block .about-us-text-right img {
+        position: absolute;
+        top: 235px;
+        left: 7px; }
+  body footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    height: 53px;
+    width: 100%;
+    margin-top: 110px;
+    background: url("../static/footer-img-background.png") no-repeat;
+    padding-top: 15px;
+    overflow-x: hidden; }
+    body footer p {
+      margin-left: 250px;
+      margin-right: 260px;
+      margin-top: 10px;
+      margin-bottom: 0;
+      font-family: "Proxima-reg";
+      color: #777777;
+      font-size: 15px; }
+    body footer div p {
+      font-family: 'Proxima';
+      color: #fff;
+      margin: 0;
+      margin-left: 115px;
+      font-size: 30px;
+      letter-spacing: 8px;
+      position: relative;
+      text-transform: uppercase;
+      font-weight: bold; }
+      body footer div p img {
+        position: absolute;
+        top: 17px;
+        left: 37px;
+        width: 50px; }
+
+@media screen and (max-width: 1800px) and (min-width: 1700px) {
+  body .Decor-block .decor-text-right .decor-third-object {
+    left: -158%; } }
+@media screen and (max-width: 1699px) and (min-width: 1600px) {
+  body .Decor-block .decor-text-right .decor-third-object {
+    left: -161%; } }
+@media screen and (max-width: 1599px) and (min-width: 1500px) {
+  body .Decor-block .decor-text-right .decor-third-object {
+    left: -162%; } }
+@media screen and (max-width: 1499px) and (min-width: 1400px) {
+  body .Decor-block .decor-text-right .decor-third-object {
+    left: -167%; } }
+@media screen and (max-width: 1399px) and (min-width: 1000px) {
+  body header .Centr-menu {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    padding-left: 0px; }
+    body header .Centr-menu a {
+      padding-left: 60px; }
+  body .main-screen .background-picture .wooden-select-main-screen {
+    top: 50%;
+    left: 0%; }
+  body .main-screen .background-picture .for-some-text {
+    padding-left: 28%;
+    padding-top: 24.2%;
+    position: relative; }
+    body .main-screen .background-picture .for-some-text p {
+      left: 25.8%; }
+  body .main-screen .background-picture .right-text-for-main-screen {
+    top: 60%; }
+  body .Furniture-block .Furniture-text-img-center {
+    zoom: 0.8; }
+  body .Furniture-block .Furniture-background-objects .Furniture-second-object {
+    font-size: 120px; }
+  body .Decor-block .decore-text-img-center {
+    zoom: 0.8; }
+  body .video-player-background {
+    zoom: 0.8; }
+  body .about-us-block {
+    zoom: 0.8; }
+  body footer p {
+    margin-left: 90px;
+    margin-right: 90px; } }
+@media screen and (max-width: 1399px) and (min-width: 1300px) {
+  body .Decor-block .decor-text-right .decor-third-object {
+    left: -159%; } }
+@media screen and (max-width: 1299px) and (min-width: 1200px) {
+  body .Decor-block .decor-text-right .decor-third-object {
+    left: -162%; } }
+@media screen and (max-width: 1199px) and (min-width: 1100px) {
+  body .Decor-block .decor-text-right .decor-third-object {
+    left: -166%; } }
+@media screen and (max-width: 1099px) and (min-width: 1000px) {
+  body .Decor-block .decor-text-right .decor-third-object {
+    left: -170%; } }
+@media screen and (max-width: 999px) and (min-width: 650px) {
+  body header {
+    zoom: 0.7; }
+    body header .Centr-menu {
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-self: center;
+      padding-left: 0px; }
+      body header .Centr-menu a {
+        padding-left: 40px; }
+  body .main-screen {
+    zoom: 0.7; }
+    body .main-screen .background-picture .wooden-select-main-screen {
+      top: 50%;
+      left: 0%; }
+    body .main-screen .background-picture .for-some-text {
+      padding-left: 28%;
+      padding-top: 24.2%;
+      position: relative; }
+      body .main-screen .background-picture .for-some-text p {
+        left: 25.8%; }
+    body .main-screen .background-picture .right-text-for-main-screen {
+      top: 60%; }
+  body .Furniture-block .Furniture-text-img-center {
+    zoom: 0.5; }
+  body .Furniture-block .Furniture-background-objects .Furniture-second-object {
+    font-size: 80px; }
+  body .Decor-block .decore-text-img-center {
+    zoom: 0.5; }
+  body .video-choose {
+    zoom: 0.6; }
+  body .video-player-background {
+    zoom: 0.6; }
+  body .about-us-block {
+    zoom: 0.5; }
+  body footer {
+    zoom: 0.7; }
+    body footer p {
+      margin-left: 50px;
+      margin-right: 50px; } }
+@media screen and (max-width: 999px) and (min-width: 900px) {
+  body .Decor-block .decor-text-right .decor-third-object {
+    left: -154%; } }
+@media screen and (max-width: 899px) and (min-width: 800px) {
+  body .Decor-block .decor-text-right .decor-third-object {
+    left: -158%; } }
+@media screen and (max-width: 799px) and (min-width: 725px) {
+  body .Decor-block .decor-text-right .decor-third-object {
+    left: -164%; } }
+@media screen and (max-width: 724px) and (min-width: 650px) {
+  body .Decor-block .decor-text-right .decor-third-object {
+    left: -168%; } }
+@media screen and (max-width: 649px) and (min-width: 450px) {
+  body header {
+    zoom: 0.7; }
+    body header .Centr-menu {
+      display: none; }
+  body #menuBurgAdapt.open .Centr-menu {
+    padding: 60px;
+    display: flex !important;
+    flex-direction: column;
+    margin-top: 155px; }
+    body #menuBurgAdapt.open .Centr-menu a {
+      padding-left: 40px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      font-size: 18px; }
+  body .main-screen {
+    zoom: 0.7; }
+    body .main-screen .background-picture {
+      height: 1040px;
+      width: 100%;
+      background: url("../static/DSC_1007_2000.png") no-repeat left top, url("../static/boss-fight-free-stock-images-photography-photos-high-resolution-wood-pile.png") right top no-repeat;
+      background-size: 67% 100%, 75% 100%; }
+      body .main-screen .background-picture .Furniture-first-object {
+        top: 83%;
+        left: 18%;
+        zoom: 0.7; }
+      body .main-screen .background-picture .letterW_main-screen {
+        zoom: 0.7; }
+      body .main-screen .background-picture .wooden-select-main-screen {
+        display: none; }
+      body .main-screen .background-picture .for-some-text {
+        padding-left: 26%;
+        padding-top: 41%;
+        position: relative;
+        zoom: 0.8; }
+        body .main-screen .background-picture .for-some-text p {
+          left: 23.8%;
+          top: 104%; }
+      body .main-screen .background-picture .right-text-for-main-screen {
+        position: absolute;
+        right: 0%;
+        top: 60%; }
+  body .Furniture-block .Furniture-text-img-center {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20%;
+    margin-top: 80px;
+    zoom: 0.5; }
+  body .Furniture-block .Furniture-text-right {
+    margin-left: 25%; }
+  body .Furniture-block .Furniture-background-objects .Furniture-second-object {
+    position: absolute;
+    top: 65%;
+    right: -12%;
+    font-size: 80px; }
+  body .Decor-block .decore-text-img-center {
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-left: 20%;
+    margin-top: 80px;
+    zoom: 0.5; }
+    body .Decor-block .decore-text-img-center .decore-background-objects .decor-first-object {
+      position: absolute;
+      top: 65%;
+      right: 57%;
+      letter-spacing: 5px; }
+    body .Decor-block .decore-text-img-center .decore-background-objects .decor-second-object {
+      top: 0%;
+      right: 14%; }
+  body .Decor-block .decor-text-right {
+    width: 380px;
+    margin-top: 70px;
+    position: relative; }
+    body .Decor-block .decor-text-right .decor-third-object {
+      display: none; }
+    body .Decor-block .decor-text-right .decor-fourth-object {
+      position: absolute;
+      top: 69%;
+      left: 133%; }
+  body .video-choose {
+    margin-top: 115px;
+    zoom: 0.6; }
+    body .video-choose .video-choose-block {
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-self: center;
+      justify-content: center;
+      margin-top: 70px; }
+      body .video-choose .video-choose-block .video-choose-block-first {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center; }
+      body .video-choose .video-choose-block .video-choose-block-second {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center; }
+      body .video-choose .video-choose-block .video-choose-block-third {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center; }
+  body .video-player-background {
+    zoom: 0.6; }
+    body .video-player-background .video-player-background-left-pict {
+      background-image: url("../static/Block-video-hd-background-arrow.png");
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 5%;
+      right: 3%;
+      width: 900px;
+      height: 900px; }
+      body .video-player-background .video-player-background-left-pict img {
+        display: none; }
+    body .video-player-background .video-player-block-info {
+      zoom: 0.8; }
+      body .video-player-background .video-player-block-info .video-player-block-text-right {
+        width: 540px;
+        margin-top: 250px;
+        position: relative;
+        margin-left: 28%;
+        letter-spacing: 1px; }
+  body .about-us-block {
+    zoom: 0.5; }
+    body .about-us-block .about-us-img-center {
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-self: center;
+      justify-content: center;
+      margin-left: 20%;
+      position: relative;
+      flex-direction: column-reverse;
+      margin-top: 80px; }
+      body .about-us-block .about-us-img-center .about-us-background-objects .about-us-first-object {
+        position: absolute;
+        top: 49%;
+        right: 53%;
+        letter-spacing: 5px; }
+    body .about-us-block .about-us-text-right {
+      width: 380px;
+      margin-top: 60px;
+      margin-left: 25%;
+      position: relative;
+      margin-bottom: 90px; }
+  body footer {
+    margin-top: 64px;
+    zoom: 0.7; }
+    body footer p {
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 10px; }
+    body footer div p {
+      margin-left: 90px; }
+      body footer div p img {
+        position: absolute;
+        top: 16px;
+        left: 37px;
+        width: 50px; } }
+@media screen and (max-width: 449px) {
+  body header {
+    zoom: 0.7; }
+    body header .Centr-menu {
+      display: none; }
+  body #menuBurgAdapt.open .Centr-menu {
+    padding: 0px;
+    display: flex !important;
+    flex-direction: column;
+    margin-top: 120px; }
+    body #menuBurgAdapt.open .Centr-menu p {
+      display: none; }
+    body #menuBurgAdapt.open .Centr-menu a {
+      padding-left: 40px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      font-size: 18px; }
+  body .main-screen {
+    zoom: 0.5; }
+    body .main-screen .background-picture {
+      height: 1040px;
+      width: 100%;
+      background: url("../static/DSC_1007_2000.png") no-repeat left top, url("../static/boss-fight-free-stock-images-photography-photos-high-resolution-wood-pile.png") right top no-repeat;
+      background-size: 67% 100%, 75% 100%; }
+      body .main-screen .background-picture .Furniture-first-object {
+        top: 83%;
+        left: 18%;
+        zoom: 0.7; }
+      body .main-screen .background-picture .letterW_main-screen {
+        zoom: 0.7; }
+      body .main-screen .background-picture .wooden-select-main-screen {
+        display: none; }
+      body .main-screen .background-picture .for-some-text {
+        padding-left: 20%;
+        padding-top: 50%;
+        position: relative;
+        zoom: 0.8; }
+        body .main-screen .background-picture .for-some-text p {
+          left: 17.8%;
+          top: 104%; }
+      body .main-screen .background-picture .right-text-for-main-screen {
+        position: absolute;
+        right: 0%;
+        top: 60%; }
+  body .Furniture-block .Furniture-text-img-center {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 80px;
+    zoom: 0.5; }
+  body .Furniture-block .Furniture-text-right {
+    margin-left: 25%; }
+  body .Furniture-block .Furniture-img-left {
+    zoom: 0.8; }
+  body .Furniture-block .Furniture-background-objects .Furniture-second-object {
+    position: absolute;
+    top: 65%;
+    right: -12%;
+    font-size: 60px; }
+  body .Decor-block .decore-text-img-center {
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 80px;
+    zoom: 0.5; }
+    body .Decor-block .decore-text-img-center .decore-background-objects .decor-first-object {
+      position: absolute;
+      top: 65%;
+      right: 57%;
+      letter-spacing: 5px; }
+    body .Decor-block .decore-text-img-center .decore-background-objects .decor-second-object {
+      top: 0%;
+      right: 14%; }
+  body .Decor-block .decore-img-right {
+    zoom: 0.8; }
+  body .Decor-block .decor-text-right {
+    width: 380px;
+    margin-top: 70px;
+    position: relative;
+    margin-left: -10%; }
+    body .Decor-block .decor-text-right .decor-third-object {
+      display: none; }
+    body .Decor-block .decor-text-right .decor-fourth-object {
+      position: absolute;
+      top: 69%;
+      left: 133%; }
+  body .video-choose {
+    margin-top: 115px;
+    zoom: 0.6; }
+    body .video-choose .video-choose-block {
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-self: center;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 70px; }
+      body .video-choose .video-choose-block .video-choose-block-first {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center; }
+      body .video-choose .video-choose-block .video-choose-block-second {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center; }
+      body .video-choose .video-choose-block .video-choose-block-third {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center; }
+  body .video-player-background {
+    zoom: 0.6; }
+    body .video-player-background .video-player-background-left-pict {
+      background-image: url("../static/Block-video-hd-background-arrow.png");
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 5%;
+      right: 3%;
+      width: 900px;
+      height: 900px; }
+      body .video-player-background .video-player-background-left-pict img {
+        display: none; }
+    body .video-player-background .video-player-block-info {
+      zoom: 0.8; }
+      body .video-player-background .video-player-block-info .video-player-block-text-right {
+        width: 300px;
+        margin-top: 200px;
+        position: relative;
+        margin-left: 22%;
+        letter-spacing: 1px; }
+        body .video-player-background .video-player-block-info .video-player-block-text-right h3::before {
+          display: none; }
+  body .about-us-block {
+    zoom: 0.5; }
+    body .about-us-block .about-us-img-center {
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-self: center;
+      justify-content: center;
+      margin-left: 10%;
+      position: relative;
+      flex-direction: column-reverse;
+      margin-top: 80px; }
+      body .about-us-block .about-us-img-center .about-us-img-right {
+        zoom: 0.8; }
+      body .about-us-block .about-us-img-center .about-us-background-objects .about-us-first-object {
+        position: absolute;
+        top: 49%;
+        right: 53%;
+        letter-spacing: 5px; }
+    body .about-us-block .about-us-text-right {
+      width: 380px;
+      margin-top: 60px;
+      margin-left: 25%;
+      position: relative;
+      margin-bottom: 90px; }
+  body footer {
+    margin-top: 64px;
+    zoom: 0.7; }
+    body footer p {
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 0px; }
+    body footer div p {
+      margin-left: 50px; }
+      body footer div p img {
+        position: absolute;
+        top: 16px;
+        left: 37px;
+        width: 50px; } }
+
+/*# sourceMappingURL=wooden.css.map */
