@@ -1,0 +1,533 @@
+body {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto; }
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  padding-top: 45px;
+  background-color: rgba(199, 178, 153, 0.5);
+  padding-bottom: 35px; }
+  header .Logo {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: lighter; }
+    header .Logo img {
+      margin-bottom: 10px;
+      margin-right: 5px; }
+  header .nav {
+    padding: 0 30px 0 200px; }
+    header .nav a {
+      text-decoration: none;
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: lighter;
+      padding-left: 5px;
+      padding-right: 10px; }
+    header .nav a:hover {
+      color: #c7b299;
+      cursor: pointer; }
+  header .serv img {
+    margin-left: 30px;
+    margin-top: 10px; }
+
+#Home {
+  padding: 0; }
+  #Home .home-get {
+    position: absolute;
+    width: 600px;
+    margin-left: -300px;
+    left: 50%;
+    top: 36%;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif; }
+    #Home .home-get h2 {
+      font-weight: bold;
+      font-size: 56px; }
+    #Home .home-get h3 {
+      font-weight: normal;
+      font-size: 36px; }
+    #Home .home-get p {
+      font-family: 'Montserrat', sans-serif; }
+    #Home .home-get .btn.btn-primary {
+      background-color: #998675;
+      border-color: #998675;
+      margin-top: 30px;
+      padding: 12px 30px 12px 30px;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family: 'Montserrat', sans-serif; }
+  #Home .carousel-inner {
+    height: 1025px; }
+  #Home .carousel-control-next .carousel-control-next-icon {
+    background-image: url("../static/right_arrow.png");
+    height: 80px;
+    width: 40px;
+    position: relative;
+    right: 20px; }
+  #Home .carousel-control-prev .carousel-control-prev-icon {
+    background-image: url("../static/left_arrow.png");
+    height: 80px;
+    width: 40px;
+    position: relative;
+    left: 20px; }
+  #Home .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    background: url("../static/dotted_slider.png") center center no-repeat; }
+  #Home .carousel-indicators .active {
+    background: url("../static/active_slide.png") center center no-repeat; }
+
+#About-Us {
+  padding: 0; }
+  #About-Us .our-services {
+    position: relative;
+    margin-top: 85px;
+    margin-bottom: 50px;
+    padding: 0; }
+    #About-Us .our-services .col {
+      padding: 0; }
+      #About-Us .our-services .col img {
+        height: 45px;
+        width: 45px; }
+      #About-Us .our-services .col h4 {
+        margin-top: 20px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold; }
+      #About-Us .our-services .col p {
+        margin-top: 15px;
+        font-family: 'Montserrat', sans-serif; }
+      #About-Us .our-services .col .decor-line {
+        display: block;
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        margin-left: -38px;
+        background-color: #f1eee9;
+        width: 76px;
+        height: 5px;
+        align-self: center; }
+    #About-Us .our-services .col:hover {
+      color: #998675;
+      cursor: pointer; }
+      #About-Us .our-services .col:hover .decor-line {
+        background-color: #998675; }
+  #About-Us .backgrounds-of-ideas {
+    margin-top: 90px;
+    padding: 0;
+    background-color: #fbfaf8;
+    height: 700px;
+    background-image: url("../static/browser-center-aboutus-back.png"), url("../static/browser-right-aboutus-back.png"), url("../static/browser-left-aboutus-back.png");
+    background-position: bottom center, bottom left 30%, bottom right 30%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    text-align: center; }
+    #About-Us .backgrounds-of-ideas h2 {
+      padding-top: 75px;
+      padding-bottom: 10px;
+      font-family: 'Raleway', sans-serif; }
+    #About-Us .backgrounds-of-ideas p {
+      width: 75%; }
+
+#Portfolio {
+  padding: 0;
+  padding-bottom: 50px; }
+  #Portfolio .some-text {
+    background: linear-gradient(100deg, #211b19 0%, #4e3427 100%);
+    padding-top: 40px;
+    padding-bottom: 30px; }
+    #Portfolio .some-text .some-text-content h3 {
+      padding-top: 5px;
+      font-family: 'Raleway', sans-serif;
+      color: #FFF; }
+      #Portfolio .some-text .some-text-content h3 span {
+        color: #c7b299; }
+    #Portfolio .some-text .some-text-content p {
+      font-size: 18px;
+      color: #615855;
+      font-family: 'Montserrat', sans-serif; }
+    #Portfolio .some-text .some-text-content .btn.btn-primary {
+      background-color: #998675;
+      border-color: #998675;
+      margin-top: 14px;
+      padding: 0px 22px 0px 22px;
+      height: 50px;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: normal; }
+    #Portfolio .some-text .some-text-content .btn.btn-primary:hover {
+      cursor: pointer;
+      background-color: #615855;
+      border-color: #615855; }
+  #Portfolio .projects {
+    padding: 0;
+    padding-top: 70px; }
+    #Portfolio .projects .name-of-block h3 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bolder;
+      font-size: 30px;
+      color: #555555; }
+    #Portfolio .projects .name-of-block p {
+      color: #8c8c8c;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      padding: 10px 130px; }
+    #Portfolio .projects .btn-link a {
+      background-color: #fff;
+      border-color: #998675;
+      margin: 10px 4px;
+      text-decoration: none;
+      padding: 5px 20px;
+      font-size: 14px;
+      font-weight: bold;
+      font-family: 'Montserrat', sans-serif;
+      color: #8c8c8c; }
+    #Portfolio .projects .btn-link a:hover {
+      background-color: #998675;
+      cursor: pointer;
+      color: #fff; }
+    #Portfolio .projects .project {
+      width: 280px;
+      padding: 0;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-start;
+      margin-top: 30px;
+      margin-bottom: 0px;
+      height: 338px;
+      background: #fbfaf8;
+      background-repeat: no-repeat;
+      background-position: top; }
+      #Portfolio .projects .project h4 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+        font-size: 20px;
+        color: #cebca6;
+        padding-left: 40px;
+        margin-bottom: 3px; }
+      #Portfolio .projects .project p {
+        color: #d4d4d4;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        padding-left: 40px;
+        margin-bottom: 25px; }
+      #Portfolio .projects .project .image-hover {
+        display: none;
+        position: absolute;
+        left: 45%;
+        top: 30%;
+        margin-left: -31px; }
+        #Portfolio .projects .project .image-hover img {
+          margin: 0 10px; }
+    #Portfolio .projects .project:hover {
+      background-color: #362f2d;
+      background-repeat: no-repeat;
+      background-position: top;
+      cursor: pointer; }
+      #Portfolio .projects .project:hover h4 {
+        color: #fff; }
+      #Portfolio .projects .project:hover .image-hover {
+        display: block;
+        position: absolute;
+        left: 45%;
+        top: 30%; }
+    #Portfolio .projects .btn-more {
+      margin-top: 5px; }
+      #Portfolio .projects .btn-more .btn {
+        background-color: #998675;
+        border-color: #998675;
+        margin-top: 30px;
+        padding: 12px 35px 12px 35px;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif; }
+      #Portfolio .projects .btn-more .btn:hover {
+        cursor: pointer;
+        background-color: #615855;
+        border-color: #615855; }
+    #Portfolio .projects .project.one {
+      background-image: url("../static/projects_img/photo-phone.png"); }
+    #Portfolio .projects .project.two {
+      background-image: url("../static/projects_img/photo-2.png"); }
+    #Portfolio .projects .project.three {
+      background-image: url("../static/projects_img/photo-3.png"); }
+    #Portfolio .projects .project.four {
+      background-image: url("../static/projects_img/photo-4.png"); }
+    #Portfolio .projects .project.five {
+      background-image: url("../static/projects_img/photo-5.png"); }
+    #Portfolio .projects .project.six {
+      background-image: url("../static/projects_img/photo-6.png"); }
+
+#Features {
+  margin-top: 35px;
+  padding-top: 205px;
+  height: 708px;
+  background: url("../static/video-presentation.png");
+  background-repeat: no-repeat; }
+  #Features .circle-play {
+    margin-left: -50px;
+    position: relative;
+    padding-top: 15px;
+    left: 50%;
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    background-color: rgba(90, 91, 98, 0.814); }
+  #Features .circle-play:hover {
+    cursor: pointer;
+    background-color: #615855; }
+  #Features h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
+    padding-top: 45px;
+    font-size: 30px; }
+  #Features p {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 5px 250px;
+    margin-bottom: 30px; }
+  #Features span {
+    margin-top: 5px;
+    color: #bcaa95; }
+
+#Blog {
+  padding-top: 200px;
+  padding-bottom: 160px;
+  background-image: url("../static/iPhone-in-hand.png");
+  background-repeat: no-repeat;
+  background-position: bottom left 28%;
+  font-family: 'Montserrat', sans-serif; }
+  #Blog h3 {
+    margin-top: -15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px; }
+  #Blog p {
+    margin-top: 30px;
+    line-height: 1.7;
+    width: 130%; }
+  #Blog ul {
+    margin-top: 30px;
+    line-height: 2;
+    width: 130%; }
+    #Blog ul li {
+      list-style: none;
+      background: url("../static/arrow_for_features.png");
+      background-repeat: no-repeat;
+      background-position: left 0px center;
+      padding-left: 50px; }
+      #Blog ul li a {
+        text-decoration: none;
+        color: black; }
+
+#Pricing {
+  background: linear-gradient(100deg, #211b19 0%, #4e3427 100%);
+  padding-top: 70px;
+  padding-bottom: 60px;
+  font-family: 'Montserrat', sans-serif; }
+  #Pricing h4 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: lighter;
+    margin-top: 18px;
+    margin-bottom: 2px; }
+  #Pricing p {
+    text-transform: uppercase;
+    color: #bcaa95;
+    font-size: 14px; }
+  #Pricing .decor-line {
+    display: block;
+    position: relative;
+    left: 50%;
+    margin-left: -16px;
+    background-color: #f1eee9;
+    width: 32px;
+    height: 3px;
+    align-self: center;
+    margin-top: 25px; }
+
+#Shortcodes {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  #Shortcodes .head-of-container h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #555555;
+    margin-top: 25px; }
+  #Shortcodes .head-of-container p {
+    color: #8c8c8c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 10px 130px; }
+  #Shortcodes .card.text-left {
+    width: 370px;
+    position: relative;
+    margin: 10px 15px; }
+    #Shortcodes .card.text-left .date {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      text-align: center; }
+      #Shortcodes .card.text-left .date .day {
+        width: 50px;
+        height: 37px;
+        background-color: #363636;
+        color: #ffffff; }
+      #Shortcodes .card.text-left .date .month {
+        width: 50px;
+        height: 27px;
+        background-color: #252525;
+        color: #ffffff; }
+    #Shortcodes .card.text-left .card-body h4 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bolder;
+      font-size: 20px;
+      color: #555555;
+      padding: 10px 10px;
+      margin-bottom: 3px; }
+    #Shortcodes .card.text-left .card-body p {
+      color: #8c8c8c;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      padding-left: 10px;
+      margin-bottom: 20px; }
+    #Shortcodes .card.text-left .card-body a {
+      color: #c7b299;
+      text-decoration: none;
+      margin-left: 10px; }
+    #Shortcodes .card.text-left .card-body a:hover {
+      cursor: pointer;
+      text-decoration: underline; }
+    #Shortcodes .card.text-left .card-body a:after {
+      content: url("../static/forCardsPost/arrow_read.png");
+      position: relative;
+      left: 6px; }
+    #Shortcodes .card.text-left .card-body:hover {
+      background: #362f2d; }
+
+#Contact {
+  height: 490px;
+  background: url("../static/Partners/Background.png");
+  position: relative;
+  margin-top: 85px; }
+  #Contact .logo-contacts {
+    position: relative;
+    top: 180px; }
+    #Contact .logo-contacts a {
+      padding: 0 41px 0 41px;
+      cursor: pointer; }
+
+#some-blog {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background: #191919; }
+  #some-blog .left-column {
+    padding-top: 30px;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: lighter; }
+    #some-blog .left-column .logo {
+      color: #ffffff;
+      font-family: 'Raleway', sans-serif;
+      font-size: 34px;
+      font-weight: lighter; }
+    #some-blog .left-column p {
+      margin-top: 20px;
+      line-height: 1.75; }
+    #some-blog .left-column a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 0px; }
+    #some-blog .left-column a:hover {
+      cursor: pointer;
+      text-decoration: underline; }
+    #some-blog .left-column a:after {
+      content: url("../static/forCardsPost/arrow_read.png");
+      position: relative;
+      left: 6px; }
+  #some-blog .rest-post {
+    padding-top: 52px;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: lighter; }
+    #some-blog .rest-post h4 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bolder;
+      font-size: 24px;
+      color: #fff; }
+    #some-blog .rest-post hr {
+      background-color: #555555;
+      margin-top: 8px;
+      margin-bottom: 8px; }
+    #some-blog .rest-post .comment {
+      padding-top: 10px; }
+      #some-blog .rest-post .comment span {
+        color: #363636; }
+      #some-blog .rest-post .comment p {
+        margin-top: 5px;
+        font-size: 15px; }
+    #some-blog .rest-post .comment:hover span {
+      color: #fff; }
+    #some-blog .rest-post .comment:hover p {
+      color: #c7b299; }
+  #some-blog .col.twitt {
+    padding-top: 52px;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: lighter; }
+    #some-blog .col.twitt h4 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bolder;
+      font-size: 24px;
+      color: #fff; }
+    #some-blog .col.twitt hr {
+      background-color: #555555;
+      margin-top: 8px;
+      margin-bottom: 8px; }
+    #some-blog .col.twitt .twitt {
+      padding-top: 10px; }
+      #some-blog .col.twitt .twitt span {
+        color: #363636; }
+      #some-blog .col.twitt .twitt p {
+        margin-top: 5px;
+        font-size: 15px;
+        margin-bottom: 0; }
+        #some-blog .col.twitt .twitt p a {
+          color: blue; }
+    #some-blog .col.twitt .twitt:hover span {
+      color: #fff; }
+    #some-blog .col.twitt .twitt:hover p {
+      color: #c7b299; }
+  #some-blog .photo-footer {
+    padding-top: 50px; }
+    #some-blog .photo-footer h4 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bolder;
+      font-size: 24px;
+      color: #fff;
+      margin-bottom: 30px; }
+    #some-blog .photo-footer img {
+      margin-bottom: 5px;
+      margin-left: 5px; }
+
+#coop {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background: #111111; }
+
+/*# sourceMappingURL=style.css.map */
