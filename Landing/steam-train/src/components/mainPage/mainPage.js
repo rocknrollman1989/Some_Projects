@@ -1,7 +1,7 @@
 import React from 'react'
-import sample from '../../static/video/MP4/Training.mp4';
+import sample from '../../static/video/MP4/road1.mp4';
 import content from '../content/content'
-
+import image from '../../static/video/MP4/road.jpg'
 
 
 
@@ -11,7 +11,7 @@ const MainPage = () =>{
     return(
         <div id='main'  className='container-fluid' style = {{padding: 0 ,}}>
             {/* <div className="video"> */}
-                <video className='videoTag' autoPlay loop muted>
+                <video className='videoTag' poster={image} autoPlay loop muted>
                     <source src={sample} type='video/mp4'/>
                 </video>
             {/* </div> */}
