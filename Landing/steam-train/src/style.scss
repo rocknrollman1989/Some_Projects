@@ -1,0 +1,205 @@
+
+
+body {
+    margin: 0 auto;
+    padding: 0;
+  
+  }
+
+header{
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
+  }
+  
+  .bm-burger-bars {
+    background: #373a47;
+  }
+  
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  .bm-menu {
+    background: #373a47;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+  
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  .bm-item {
+    display: inline-block;
+  }
+  
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  }
+#main{
+    position: relative;
+    width: 100%;
+    
+
+    .videoTag{
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      background-size: cover;
+    }
+    content{
+      position: absolute;
+      margin-left: -15%;
+      top: 30vh;
+      left: 50%;
+      width: 30%;
+      h2{
+        font-size: 40px;
+        font-weight: bolder;
+        color: rgb(93, 26, 68);
+      }
+      p{
+        font-size: 16px;
+        color: #fff;
+        }
+    }
+}
+#popup{
+  
+}
+.ReactModal__Overlay {
+  z-index: 2000;
+}
+#slider{
+  background: url('https://st.depositphotos.com/1001564/3181/i/450/depositphotos_31813275-stock-photo-railroad.jpg') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+.slides {   
+
+  padding: 100px 40px;
+
+      img{
+          width: 100%;
+          height: auto;
+      }
+  }
+}  
+
+#infoBlock{
+
+  background: url('https://st.depositphotos.com/1001564/3181/i/450/depositphotos_31813275-stock-photo-railroad.jpg') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+#form-info{
+  position: relative;
+  background: rgba(199, 180, 180, 0.5);
+
+  top: 100px;
+  left: 50%;
+  margin-left: -130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 360px;
+    label{
+      padding: 5px;
+    }
+  
+}
+#nothing{
+  background: url('https://st.depositphotos.com/1001564/3181/i/450/depositphotos_31813275-stock-photo-railroad.jpg') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+#shed{
+  width: 100%;
+  .recharts-wrapper{
+    position: relative;
+    top: 50px;
+    left: 10%;
+   
+
+  
+  }
+
+}
+
+
+@media screen and (max-width: 900px){
+  #main{
+    
+    content{
+      margin-left: -30%;
+      top: 20vh;
+      left: 50%;
+      width: 60%;
+      h2{
+        font-size: 40px;
+        font-weight: bolder;
+        color: rgb(93, 26, 68);
+      }
+      p{
+        font-size: 16px;
+        color: #fff;
+        }
+    }
+}
+
+}
+@media screen and (max-width: 400px){
+  #main{
+    
+    content{
+      margin-left: -30%;
+      top: 9vh;
+      left: 50%;
+      width: 60%;
+      h2{
+        font-size: 40px;
+        font-weight: bolder;
+        color: rgb(93, 26, 68);
+      }
+      p{
+        font-size: 16px;
+        color: #fff;
+        }
+    }
+}
+  #slider{
+    
+    .slides {   
+      padding: 100px 5px;
+
+          img{
+              width: 100%;
+              height: auto;
+          }
+      }
+}  
+
+}
