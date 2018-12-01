@@ -1,6 +1,7 @@
-import React from "react";
+import React from 'react'
 import ModalPopup from '../header/modalPop'
-import { Redirect } from 'react-router';
+// import { Redirect } from 'react-router'
+
 
 class InfoBlock extends React.Component{
     constructor(props) {
@@ -85,7 +86,7 @@ render(){
     return( 
         <div id='nothing'>
         <ModalPopup/>
-        {/* <button onClick={this.olick}>Magic Reload for Info:)</button> */}
+       
       
       </div>
      )

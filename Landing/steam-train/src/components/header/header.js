@@ -29,7 +29,7 @@ handleSubmit() {
   // this.setState({buttonOn: false})
   // console.log(this.state.buttonOn)
   this.forceUpdate()
-// ((localStorage["name"]===''||localStorage["name"]===undefined)?null:window.location.reload())
+
   
 }
 handleStateChange (state) {
@@ -73,7 +73,7 @@ toggleMenu () {
           <p><Link to='/someInfo'>SomeInfo</Link></p>
           <p><Link to='/Scheduleain'>Schedule</Link></p>
         </Menu>
-        {/* <CustomIcon onClick={() => this.toggleMenu()} /> */}
+        
       </header>
     );
   }

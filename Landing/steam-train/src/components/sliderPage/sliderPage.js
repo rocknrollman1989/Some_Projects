@@ -17,18 +17,15 @@ class SliderPage extends React.Component {
       autoplaySpeed:2000,
       slickNext: true
     };
-    // console.log(content[1].img)
     
    
 
     const image = content[1].img.map((img, i) =><div key={i}><img src={img} alt=""/></div>)
-    // const lorem = content[2].names.map((name)=><h2>{name}</h2> )
     return (
     <div  id='slider'>
       <div className='slides'>
       <Slider {...settings}>
         {image}
-        {/* {lorem} */}
       </Slider>
       </div>
     </div>
