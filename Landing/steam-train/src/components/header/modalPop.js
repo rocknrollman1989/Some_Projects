@@ -23,10 +23,11 @@ class ModalPopup extends React.Component {
     super(props);
 
     this.state = {
-    name: ''||(localStorage["name"]===undefined?'':localStorage["name"]),
-    eMail: ''||(localStorage["eMail"]===undefined?'':localStorage["eMail"]),  
+    name: '',
+    eMail: '',
     modalIsOpen: true,
-    login: 'LOG IN',
+    onLogin: true
+
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -36,6 +37,7 @@ class ModalPopup extends React.Component {
     this.closeModal = this.closeModal.bind(this);
 
   }
+
   handleChange(event) {
     const{
       name, value 
@@ -45,9 +47,14 @@ class ModalPopup extends React.Component {
   }
   
   openModal() {
-    // this.forceUpdate()
-    console.log(localStorage);
-    this.setState({modalIsOpen: true});
+    console.log(this.state.onLogin);
+      if(this.state.onLogin === false){
+      this.props.ourLoginInfo();
+      localStorage.clear()
+      this.setState({onLogin: !this.state.onLogin});
+      return
+      }
+      this.setState({modalIsOpen: true});
 
   }
 
@@ -61,22 +68,21 @@ class ModalPopup extends React.Component {
   }
   
   handleSubmit() {
-  
+
   localStorage.setItem("name", this.state.name);
   localStorage.setItem("eMail", this.state.eMail);
-
-
-  console.log(localStorage);
-
-  this.setState({modalIsOpen: false});
+  // console.log(this.state.onLogin);
   
+  this.setState({modalIsOpen: false});
+  this.setState({onLogin: !this.state.onLogin});
+  this.props.ourLoginInfo(this.state.name, this.state.eMail);
   }
 
   render() {
     
     return (
       <div id="popup">
-      <button onClick={this.openModal}>{this.state.login}</button>
+      <button onClick={this.openModal}>{this.state.onLogin?'LOG IN':'LOG OUT'}</button>
         <Modal
           isOpen={this.state.modalIsOpen}
           onAfterOpen={this.afterOpenModal}

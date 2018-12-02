@@ -82,7 +82,7 @@ render(){
     </div>
   )
 
-  if(localStorage["name"]===''||localStorage["name"]===undefined&&localStorage["eMail"]===''||localStorage["eMail"]===undefined){
+  if(localStorage["name"]===''||localStorage["name"]===undefined||localStorage["eMail"]===''||localStorage["eMail"]===undefined){
     return( 
         <div id='nothing'>
         <ModalPopup/>

@@ -4,13 +4,12 @@ import { slide as Menu } from 'react-burger-menu'
 import ModalPopup from './modalPop'
 
 
-class Header extends React.Component {
+class Header extends React.Component{
   constructor(props) {
     super(props);
     this.state = {
       buttonOn: true,
       menuOpen: false,
-      value: '',
       name: '',
       eMail: '',
       first: '',
@@ -18,20 +17,12 @@ class Header extends React.Component {
       place: '',
 
     };
-    this.handleSubmit = this.handleSubmit.bind(this);
+  
+    this.ourLoginInfo = this.ourLoginInfo.bind(this);
 
   }
 
-handleSubmit() {
-  localStorage.clear()
-  
-  console.log(localStorage)
-  // this.setState({buttonOn: false})
-  // console.log(this.state.buttonOn)
-  this.forceUpdate()
 
-  
-}
 handleStateChange (state) {
   this.forceUpdate()
   this.setState({menuOpen: state.isOpen})  
@@ -43,30 +34,26 @@ closeMenu () {
 toggleMenu () {
   this.setState({menuOpen: !this.state.menuOpen})
 }
-  render () {
-    const ButtonIn = () =>{
-      return(
-        <>
-         {/* (this.state.buttonOn===true?<button onClick={this.handleSubmit}>Выход</button>:null) */}
-        </>
-      )
-    }
+ourLoginInfo(value1 , value2){
+this.setState({name : value1,
+               eMail: value2 })             
 
+}
+  render () {
+   
     return (
       <header>
         <Menu 
           isOpen={this.state.menuOpen}
           onStateChange={(state) => this.handleStateChange(state)}
         >
-          <p>{localStorage["name"]}</p>
-          <p>{localStorage["eMail"]}</p>
+          <p>{this.state.name}</p>
+          <p>{this.state.eMail}</p>
           <p>{localStorage["first"]}</p>
           <p>{localStorage["second"]}</p>
           <p>{localStorage["place"]}</p>
-          {/* <ButtonIn/> */}
-          <button onClick={this.handleSubmit}>Выход</button>
 
-          <ModalPopup/>
+          <ModalPopup ourLoginInfo={this.ourLoginInfo}/>
 
           <p><Link to='/main'>Main</Link></p>
           <p><Link to='/gallery'>Gallery</Link></p>
