@@ -51,13 +51,13 @@ render(){
                 <Switch>
                     <Route  exact path='/main' component={MainPage}/>
                     <Route  path='/gallery' component={SliderPage}/>
-                    <Route  path='/someInfo' component={{InfoBlock} }/>
+                    <Route  path='/someInfo' component={InfoBlock}/>
                     <Route  path='/Scheduleain' component={Schedule}/>
                 </Switch>     
     </div> 
-        )
+        );
     }
-}
+};
 
 
 ReactDOM.render((

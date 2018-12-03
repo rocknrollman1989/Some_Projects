@@ -82,12 +82,17 @@ render(){
 
   if(!this.state.onLogin){
     return( 
-        console.log("!!!")
-    
+        <div id='nothing'>
+        <ModalPopup/>
+       
+      
+      </div>
      )
   }
     else return(
-     console.log('нихую')
+      <>
+      <Info/>
+      </>
     )
   }
 }
