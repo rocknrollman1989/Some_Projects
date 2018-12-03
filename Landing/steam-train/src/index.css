@@ -2,6 +2,8 @@ body {
   margin: 0 auto;
   padding: 0; }
 
+header .nav-menu {
+  opacity: 0.9; }
 header .bm-burger-button {
   position: fixed;
   width: 36px;
@@ -18,7 +20,9 @@ header .bm-cross {
 header .bm-menu {
   background: #373a47;
   padding: 2.5em 1.5em 0;
-  font-size: 1.15em; }
+  font-size: 1.15em;
+  background: url("https://st.depositphotos.com/1001564/3181/i/450/depositphotos_31813275-stock-photo-railroad.jpg") no-repeat;
+  background-size: cover; }
 header .bm-morph-shape {
   fill: #373a47; }
 header .bm-item-list {

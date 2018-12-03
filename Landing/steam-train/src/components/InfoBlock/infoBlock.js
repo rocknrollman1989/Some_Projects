@@ -8,23 +8,21 @@ class InfoBlock extends React.Component{
         super(props);
 
         this.state = {
+          onLogin: true,
           value: '',
-          name: ''||(localStorage["name"]===undefined?'':localStorage["name"]),
-          eMail: ''||(localStorage["eMail"]===undefined?'':localStorage["eMail"]),
-          first: ''||(localStorage["first"]===undefined?'':localStorage["first"]),
-          second: ''||(localStorage["second"]===undefined?'':localStorage["second"]),
-          place: ''||(localStorage["place"]===undefined?'':localStorage["place"])
+          name: '',
+          eMail: '',
+          first: '',
+          second: '',
+          place: ''
           
         };
         
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
-        this.olick = this.olick.bind(this);
+    
       }
-      olick(){
-        console.log('!!!')
-
-      }
+      
       
       handleChange(event) {
         const{
@@ -51,7 +49,7 @@ class InfoBlock extends React.Component{
     
 
 render(){
-  
+    
   const Info = () =>(
 
   <div id="infoBlock">
@@ -82,19 +80,14 @@ render(){
     </div>
   )
 
-  if(localStorage["name"]===''||localStorage["name"]===undefined||localStorage["eMail"]===''||localStorage["eMail"]===undefined){
+  if(!this.state.onLogin){
     return( 
-        <div id='nothing'>
-        <ModalPopup/>
-       
-      
-      </div>
+        console.log("!!!")
+    
      )
   }
     else return(
-      <>
-      <Info/>
-      </>
+     console.log('нихую')
     )
   }
 }

@@ -24,7 +24,6 @@ class Header extends React.Component{
 
 
 handleStateChange (state) {
-  this.forceUpdate()
   this.setState({menuOpen: state.isOpen})  
 }
 closeMenu () {
@@ -35,8 +34,10 @@ toggleMenu () {
   this.setState({menuOpen: !this.state.menuOpen})
 }
 ourLoginInfo(value1 , value2){
-this.setState({name : value1,
-               eMail: value2 })             
+
+  this.setState({name : value1,
+                eMail: value2 });
+  this.props.ourInfo(value1, value2);      
 
 }
   render () {
@@ -44,6 +45,7 @@ this.setState({name : value1,
     return (
       <header>
         <Menu 
+          className='nav-menu'
           isOpen={this.state.menuOpen}
           onStateChange={(state) => this.handleStateChange(state)}
         >
