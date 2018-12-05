@@ -1,8 +1,6 @@
 import React from 'react';
 import Modal from 'react-modal';
 
-
-
 const customStyles = {
   content : {
     top                   : '50%',
@@ -15,18 +13,20 @@ const customStyles = {
   }
 };
 
-
 Modal.setAppElement('#root')
 
 class ModalPopup extends React.Component {
   constructor(props) {
     super(props);
-
+   
     this.state = {
-    name: '',
-    eMail: '',
+    name:  '',
+    email: '',
+    firstName: '',
+    lastName: '',
+    userPlace: '',
     modalIsOpen: true,
-    onLogin: true
+    isLoggedIn: false
 
     };
 
@@ -35,27 +35,38 @@ class ModalPopup extends React.Component {
     this.openModal = this.openModal.bind(this);
     this.afterOpenModal = this.afterOpenModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
-
+    this.logOut=this.logOut.bind(this)
   }
+  componentDidMount(){
+    if(localStorage.length<2){
+      console.log('!!!');
+      return
+    }
 
+    this.setState({isLoggedIn: true,
+      modalIsOpen: false})
+  }
   handleChange(event) {
-    const{
-      name, value 
-    } = event.target;
+    const{ name, value } = event.target;
+      
     this.setState({[name]: value});
   
   }
   
   openModal() {
-    console.log(this.state.onLogin);
-      if(this.state.onLogin === false){
-      this.props.ourLoginInfo();
-      localStorage.clear()
-      this.setState({onLogin: !this.state.onLogin});
-      return
-      }
-      this.setState({modalIsOpen: true});
+    this.setState({modalIsOpen: true});
+  }
 
+  logOut(){
+    
+    this.setState({isLoggedIn: !this.state.isLoggedIn,
+                    name:  '',
+                    email: '',
+                    firstName: '',
+                    lastName: '',
+                    userPlace: '',
+                })
+    this.props.onDeleteLogin();
   }
 
   afterOpenModal() {
@@ -67,22 +78,24 @@ class ModalPopup extends React.Component {
     this.setState({modalIsOpen: false});
   }
   
-  handleSubmit() {
+  handleSubmit(event) {
+    event.preventDefault()
+    this.setState({modalIsOpen: false});
+    this.setState({isLoggedIn: !this.state.isLoggedIn,
+                    name: this.state.name,
+                    email: this.state.email,})
 
-  localStorage.setItem("name", this.state.name);
-  localStorage.setItem("eMail", this.state.eMail);
-  // console.log(this.state.onLogin);
-  
-  this.setState({modalIsOpen: false});
-  this.setState({onLogin: !this.state.onLogin});
-  this.props.ourLoginInfo(this.state.name, this.state.eMail);
+    this.props.onSubmit(this.state);//send data to index.js
+
   }
 
   render() {
-    
+    // console.log('modal.state-del',this.state)
     return (
       <div id="popup">
-      <button onClick={this.openModal}>{this.state.onLogin?'LOG IN':'LOG OUT'}</button>
+      {this.state.isLoggedIn?
+      <button onClick={this.logOut}>LOG OUT</button>
+      :<button onClick={this.openModal}>LOG IN</button>}
         <Modal
           isOpen={this.state.modalIsOpen}
           onAfterOpen={this.afterOpenModal}
@@ -93,18 +106,20 @@ class ModalPopup extends React.Component {
 
         <h2 ref={subtitle => this.subtitle = subtitle}>Hello Admin! Would you like to Enter?</h2>
         <form onSubmit={this.handleSubmit} >
-            <label>
-            NickName:
-            <input type="text" value={this.state.name} name='name' onChange={this.handleChange} placeholder={'NickName'}/>
-            </label>
-            <label>
-            E-mail:
-            <input type="text" value={this.state.eMail} name='eMail' onChange={this.handleChange} placeholder={'E-mail'} />
-            </label>
-            <input type="submit" value="Log in" />
-          </form>
+
         <button onClick={this.closeModal}>Not today</button>
-          
+        <label>
+            NickName:
+            <input type="text" value={this.state.name} name='name' onChange={this.handleChange}
+                   placeholder={'NickName'} />
+          </label>
+          <label>
+            E-mail:
+            <input type="text" value={this.state.email} name='email' onChange={this.handleChange}
+                   placeholder={'E-mail'} />
+          </label>
+          <input type="submit" value="Log in" />
+        </form>
         </Modal>
            
       </div>

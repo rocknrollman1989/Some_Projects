@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import content from '../content/content'
+import Header from '../header/header'
 
 
 class SliderPage extends React.Component {
@@ -22,6 +23,8 @@ class SliderPage extends React.Component {
 
     const image = content[1].img.map((img, i) =><div key={i}><img src={img} alt=""/></div>)
     return (
+      <>
+    <Header/>
     <div  id='slider'>
       <div className='slides'>
       <Slider {...settings}>
@@ -29,6 +32,7 @@ class SliderPage extends React.Component {
       </Slider>
       </div>
     </div>
+    </>
     );
   }
 }

@@ -5,10 +5,17 @@ import image from '../../static/video/MP4/road.jpg'
 
 
 
-const MainPage = () =>{
+
+class MainPage extends React.Component{
+    
+   componentDidMount(){
    
+   }
+render(){
+
     return(
-        <div id='main'  className='container-fluid' style = {{padding: 0 ,}}>
+        <>
+        <div id='main'  className='container-fluid' style = {{padding: 0,}}>
             <video className='videoTag' poster={image} autoPlay loop muted>
                 <source src={sample} type='video/mp4'/>
             </video>
@@ -17,8 +24,9 @@ const MainPage = () =>{
                 <p>{content[0].textMain}</p>
             </content>
         </div>
+        </>
     )
 }
-
+}
 
 export default MainPage
