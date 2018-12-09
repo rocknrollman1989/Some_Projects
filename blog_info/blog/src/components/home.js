@@ -41,7 +41,7 @@ render(){
 
     return(
     <HomePageWrapperSC>
-        <h1>Welcome to Block, perfect stranger!</h1>
+        <h1>Welcome to Blog, perfect stranger!</h1>
         <div className='short-info-section'>
             <div className='post-wrapper'>
                 <h4>Latest posts</h4>
